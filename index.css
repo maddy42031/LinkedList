@@ -7,7 +7,8 @@
   background-color: hotpink;
 }
 body {
-  background-color: rgb(31, 31, 42);
+  
+  background-color:rgb(24, 24, 38) ;
   color: rgb(214, 215, 223);
   font-family: "Rubik", Courier, monospace;
 }
@@ -77,11 +78,8 @@ nav {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 600;
 }
-.bg {
-  background-color: aqua;
-}
-
 .btn-grad {
   background-image: linear-gradient(
     to right,
@@ -92,7 +90,7 @@ nav {
 }
 .btn-grad {
   margin: 10px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -110,9 +108,10 @@ nav {
   text-decoration: none;
 }
 .listDiv{
-    background-color: rgb(24, 24, 38);
+    background-color: rgb(42, 42, 52);
     border-radius: 10px;
     color: rgb(193, 193, 198);
+    padding: .9rem .8rem .1rem 1rem;
     font-size: 1.2rem;
 }
 @media only screen and (max-width:500px) {

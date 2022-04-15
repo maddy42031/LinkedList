@@ -90,7 +90,7 @@ class LinkedList {
       let P1Attr = document.createAttribute("class");
       let P2Attr = document.createAttribute("class");
       let P3Attr = document.createAttribute("class");
-      DIVAttr.value = "listDiv mt-4 mb-4 p-3";
+      DIVAttr.value = "listDiv mt-4 mb-4";
       P1Attr.value = "indexVal";
       P2Attr.value = "currentVal";
       P3Attr.value = "nextVal";
