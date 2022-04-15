@@ -114,6 +114,29 @@ nav {
     padding: .9rem .8rem .1rem 1rem;
     font-size: 1.2rem;
 }
+.contactLogo {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: max-content;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  transition: all .3s;
+}
+.contactLogo > a {
+  text-decoration: none;
+  color:aliceblue;
+}
+.contactLogo:hover{
+  text-decoration: underline;
+}
+.instagram>a{
+  text-decoration: none;
+  color: paleturquoise;
+}
+.instagram>a:hover{
+  text-decoration: underline;
+}
 @media only screen and (max-width:500px) {
     #navContainer>p{
     font-size: 3.2rem;
